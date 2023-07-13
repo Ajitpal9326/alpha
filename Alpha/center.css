@@ -1,0 +1,48 @@
+ div{
+     display: flex; 
+      align-items: center;  
+     justify-content: center; 
+        height: 100vh;
+} 
+
+h1{
+
+ position: absolute; 
+ top: 0px; 
+ left: 0px; 
+ margin-top: 0px; 
+color: yellow;  
+
+position: relative;
+top: 0px;
+left: 0px;
+margin-top: 0px;
+color: yellow;    
+}
+ img{
+ position: sticky;
+top: 250px;
+left: 0px;
+
+} 
+ #abc{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: aqua;
+} 
+  #abc::placeholder{
+    color: black;
+  }
+  #xyz{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: yellow;
+  }
+  #xyz::placeholder{
+    color:  blue    ;
+  }
+
